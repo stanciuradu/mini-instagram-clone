@@ -20,13 +20,14 @@
 }
 .header .header-buttons button {
   margin-right: 1rem;
-  width: 4rem;
+  width: 5rem;
+  border-radius: 6px;
 }
 .header .header-buttons .log-in {
   height: 2rem;
   background-color: blue;
   color: white;
-  border-radius: 1vh;
+
   cursor: pointer;
   font-weight: bold;
 }
