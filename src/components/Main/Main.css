@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.main img {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 80%;
+  margin-right: 4rem;
+}
+.main .content-main .title-content-main {
+  display: flex;
+  align-items: center;
+}
+.main .content-main .title-content-main p {
+  margin-right: 2rem;
+}
+.main .content-main .title-content-main button {
+  margin-left: 2rem;
+  height: 5vh;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 15vh;
+}
+.main .content-main .details-content-main {
+  display: flex;
+}
+.main .content-main .details-content-main .details {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.main .content-main .details-content-main p {
+  margin-right: 2rem;
+}
+.main .content-main h1,
+p {
+  display: flex;
+  justify-content: flex-start;
+}
+.main .content-main h1 {
+  font-size: medium;
+}
+.main .content-main .subtitle {
+  color: grey;
+}
+.main .content-main .firefox {
+  color: blue;
+  cursor: pointer;
+  margin-left: 0.2rem;
+}
