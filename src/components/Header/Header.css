@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid grey;
+}
+.header img {
+  width: 6rem;
+  height: auto;
+}
+.header .header-buttons .sign-up {
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  color: rgb(23, 130, 253);
+  background-color: white;
+  font-weight: bold;
+}
+.header .header-buttons button {
+  margin-right: 1rem;
+  width: 4rem;
+}
+.header .header-buttons .log-in {
+  height: 2rem;
+  background-color: blue;
+  color: white;
+  border-radius: 1vh;
+  cursor: pointer;
+  font-weight: bold;
+}
+.header input::placeholder {
+  text-align: center;
+}
+.header input {
+  padding: 0px 10px;
+  border-radius: 4px;
+  color: black;
+  height: 4vh;
+}
