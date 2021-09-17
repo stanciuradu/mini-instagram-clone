@@ -19,12 +19,7 @@
 }
 .main .content-main .title-content-main button {
   margin-left: 2rem;
-  height: 5vh;
-  background-color: blue;
-  color: white;
-  cursor: pointer;
-  border-radius: 8px;
-  width: 15vh;
+
 }
 .main .content-main .details-content-main {
   display: flex;

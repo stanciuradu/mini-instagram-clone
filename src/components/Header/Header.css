@@ -20,17 +20,8 @@
 }
 .header .header-buttons button {
   margin-right: 1rem;
-  width: 5rem;
-  border-radius: 6px;
 }
-.header .header-buttons .log-in {
-  height: 2rem;
-  background-color: blue;
-  color: white;
 
-  cursor: pointer;
-  font-weight: bold;
-}
 .header input::placeholder {
   text-align: center;
 }

@@ -10,7 +10,7 @@ function Main() {
         <div className="title-content-main">
           <p>mozzila</p>
           <Verification />
-          <button type="button">Urmarește</button>
+          <button type="button" className='btn btn-primary'>Urmarește</button>
         </div>
         <div className="details-content-main">
           <p>

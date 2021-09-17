@@ -8,7 +8,7 @@ function Header() {
       <img src={logo} alt="Logo" />
         <input type="search" placeholder="Cauta" />
       <div className="header-buttons">
-        <button type="button" className="log-in">
+        <button type="button" className="btn btn-primary">
           Log In
         </button>
         <button type="button" className="sign-up">
