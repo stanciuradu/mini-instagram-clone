@@ -10,7 +10,9 @@ function Main() {
         <div className="title-content-main">
           <p>mozzila</p>
           <Verification />
-          <button type="button" className='btn btn-primary'>Urmarește</button>
+          <button type="button" className="btn btn-primary">
+            Urmarește
+          </button>
         </div>
         <div className="details-content-main">
           <p>
@@ -33,6 +35,7 @@ function Main() {
           The nonprofit behind{" "}
           <span className="firefox">@Firefox. #BlackLivesMatter</span> ✊🏽✊🏾✊🏿
         </p>
+        <div className="border"></div>
       </div>
     </div>
   );

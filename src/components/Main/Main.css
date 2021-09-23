@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   padding: 30px;
-  border-bottom: 1px solid black;
 }
 .main img {
   width: 20vh;
@@ -47,4 +46,13 @@ p {
   color: blue;
   cursor: pointer;
   margin-left: 0.2rem;
+}
+.main .content-main .border{
+  content: '.';
+  display: block;
+  height: 1px;
+  width: 800px;
+  margin: 0px auto;
+  text-indent: -9999px;
+  border-top: 1px solid #bb1e1eaf;
 }
