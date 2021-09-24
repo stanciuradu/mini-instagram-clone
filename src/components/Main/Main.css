@@ -8,6 +8,10 @@
   height: 20vh;
   border-radius: 80%;
   margin-right: 4rem;
+  padding: 5px;
+  border: 5px solid transparent;
+  opacity: 80%;
+  background: linear-gradient(60deg, #ef331a 60%, #ce00 100%);
 }
 .main .content-main .title-content-main {
   display: flex;
