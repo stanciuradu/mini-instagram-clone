@@ -6,11 +6,12 @@
 .sectiune .section-buttons{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2rem;
 }
 .sectiune .button-post button {
   border: none;
-  background-color: white;
+  background-color: #f3efef;
   margin-right: 3rem;
   font-size: 1rem;
   font-family: inherit;
@@ -18,7 +19,7 @@
 
 .sectiune .button-video button {
   border: none;
-  background-color: white;
+  background-color: #f3efef;
   margin-right: 3rem;
   font-size: 1rem;
   font-family: inherit;
@@ -26,7 +27,7 @@
 
 .sectiune .button-etichete button {
   border: none;
-  background-color: white;
+  background-color: #f3efef;
   margin-right: 3rem;
   font-size: 1rem;
   font-family: inherit;
