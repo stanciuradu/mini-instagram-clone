@@ -1,6 +1,12 @@
 .sectiune {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+.sectiune .section-buttons{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 .sectiune .button-post button {
   border: none;
