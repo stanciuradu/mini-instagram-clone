@@ -23,7 +23,6 @@
 }
 .main .content-main .title-content-main button {
   margin-left: 2rem;
-
 }
 .main .content-main .details-content-main {
   display: flex;
@@ -51,8 +50,8 @@ p {
   cursor: pointer;
   margin-left: 0.2rem;
 }
-.main .content-main .border{
-  content: '.';
+.main .content-main .border {
+  content: ".";
   display: block;
   height: 1px;
   width: 800px;
