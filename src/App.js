@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/conectare" component={Login} />
         <Route path="/înscrie-te" component={SignUp} />
-        <Route path='/password_reset' component={PasswordReset}/>
+        <Route path="/password_reset" component={PasswordReset} />
         <Route path="*" component={Page404} />
       </Switch>
     </div>
