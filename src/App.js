@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
-import Page404 from "./pages/Page404";
+import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
+import SignUp from "./pages/SignUp/SignUp";
+import Page404 from "./pages/Page404/Page404";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
 
