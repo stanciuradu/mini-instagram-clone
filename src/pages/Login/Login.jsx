@@ -64,7 +64,7 @@ export class Login extends Component {
         </div>
         <div className="button-login-facebook">
           <button type="button">
-            <Facebook className="w-25 mr-3" />
+            <Facebook className="w-25" />
             <span className="text-nowrap">Conectare cu Facebook</span>
           </button>
         </div>
