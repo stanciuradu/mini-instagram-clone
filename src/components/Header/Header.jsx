@@ -7,16 +7,16 @@ function Header() {
   return (
     <div className="header">
       <img src={logo} alt="Logo" />
-      <input type="search" placeholder="Cauta" className="form-control" />
+      <input type="search" placeholder="Caută" className="form-control" />
       <div className="header-buttons">
-        <Link to="/login">
+        <Link to="/conectare">
           <button type="button" className="btn btn-primary">
-            Log In
+            Conectare
           </button>
         </Link>
-        <Link to="/sign_up">
+        <Link to="/înscrie-te">
           <button type="button" className="sign-up">
-            Sign Up
+            Înscrie-te
           </button>
         </Link>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../components/Main/Main.css";
 import { ReactComponent as Verification } from "../../assets/icons/verification.svg";
-
+import { Link } from "react-router-dom";
 function Main() {
   return (
     <div className="main">
@@ -10,9 +10,11 @@ function Main() {
         <div className="title-content-main">
           <p>mozzila</p>
           <Verification />
-          <button type="button" className="btn btn-primary">
-            Urmarește
-          </button>
+          <Link to="/login">
+            <button type="button" className="btn btn-primary">
+              Urmarește
+            </button>
+          </Link>
         </div>
         <div className="details-content-main">
           <p>
