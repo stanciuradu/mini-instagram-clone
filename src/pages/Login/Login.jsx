@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import logo from "../../assets/images/logo.png";
 import "../Login/Login.css";
+import SectionFromLogin from "../../components/SectionFromLogin";
+import { ReactComponent as Facebook } from "../../assets/icons/facebook.svg";
+import { Link } from "react-router-dom";
 
 export class Login extends Component {
   constructor() {
@@ -31,28 +34,43 @@ export class Login extends Component {
     return (
       <div className="login">
         <img src={logo} alt="Logo" />
-        <div className='form'>
-        <form onSubmit={(event)=>this.handleSubmitForm(event)}>
-          <label htmlFor="text" className='form-label'>Telefon, email sau nume utilizator</label>
-          <input
-            type="text"
-            id="text"
-            onChange={(event) => this.handleUpdateText(event)}
-            value={this.state.text}
-            className='form-control'
-          />
-          <label htmlFor="password" className='form-label'>Parola</label>
-          <input
-            type="password"
-            id="password"
-            onChange={(event) => this.handleUpdatePassword(event)}
-            value={this.state.password}
-            className='form-control'
-          />
-          <input type="submit" value="Conectare" />
-        </form>
-
+        <div className="form">
+          <form onSubmit={(event) => this.handleSubmitForm(event)}>
+            <input
+              type="text"
+              id="text"
+              onChange={(event) => this.handleUpdateText(event)}
+              value={this.state.text}
+              className="form-control"
+              placeholder="Telefon, email sau nume utilizator"
+            />
+            <input
+              type="password"
+              id="password"
+              onChange={(event) => this.handleUpdatePassword(event)}
+              value={this.state.password}
+              className="form-control"
+              placeholder=" Parola"
+            />
+            <input
+              type="submit"
+              value="Conectare"
+              className="btn btn-primary"
+            />
+          </form>
         </div>
+        <div className="section-form-login">
+          <SectionFromLogin />
+        </div>
+        <div className="button-login-facebook">
+          <button type="button">
+            <Facebook className="w-25 mr-3" />
+            <span className="text-nowrap">Conectare cu Facebook</span>
+          </button>
+        </div>
+        <Link to='/password_reset' className='link'>
+          <p>Ai uitat parola?</p>
+        </Link>
       </div>
     );
   }
