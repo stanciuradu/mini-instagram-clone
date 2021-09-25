@@ -7,14 +7,14 @@ function Header() {
   return (
     <div className="header">
       <img src={logo} alt="Logo" />
-      <input type="search" placeholder="Cauta" />
+      <input type="search" placeholder="Cauta" className="form-control" />
       <div className="header-buttons">
-        <Link to='/login'>
+        <Link to="/login">
           <button type="button" className="btn btn-primary">
             Log In
           </button>
         </Link>
-        <Link to='/sign_up'>
+        <Link to="/sign_up">
           <button type="button" className="sign-up">
             Sign Up
           </button>

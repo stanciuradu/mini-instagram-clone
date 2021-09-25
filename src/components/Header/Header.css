@@ -26,9 +26,5 @@
   text-align: center;
 }
 .header input {
-  padding: 0px 10px;
-  border-radius: 4px;
-  color: black;
-  height: 4vh;
-  background-color: rgb(245, 240, 240);
+  width: 20rem;
 }
