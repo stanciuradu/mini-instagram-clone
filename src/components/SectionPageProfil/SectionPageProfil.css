@@ -1,0 +1,42 @@
+.sectiune {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sectiune .section-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .sectiune .button-post button {
+    border: none;
+    background-color: #faf6f6;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  
+  .sectiune .button-video button {
+    border: none;
+    background-color: #faf6f6;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  .sectiune .button-salvate button {
+    border: none;
+    background-color: #faf6f6;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  
+  .sectiune .button-etichete button {
+    border: none;
+    background-color: #faf6f6;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-family: inherit;
+  }
