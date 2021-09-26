@@ -4,11 +4,18 @@ import postari from "../../assets/images/postari.png";
 import video from "../../assets/images/video.png";
 import salvate from "../../assets/images/salvate.png";
 import etichetele from "../../assets/images/etichetele.png";
+import pictures from '../../utils/pictures.json';
+import ImagesList from "../ImagesPageProfile/ImagesList";
 
 export class SectionPageProfil extends Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      pictures:[]
+    };
+  }
+  componentDidMount(){
+    this.setState({pictures:pictures})
   }
   render() {
     return (
@@ -33,6 +40,20 @@ export class SectionPageProfil extends Component {
             </div>
           </div>
         </div>
+        <ImagesList pictures={this.state.pictures} />
+        {/* <div className='button-page-profile'>
+          <button type='button'>Despre</button>
+          <button type='button'>Blog</button>
+          <button type='button'>Joburi</button>
+          <button type='button'>Ajutor</button>
+          <button type='button'>API</button>
+          <button type='button'>Confidentialitate</button>
+          <button type='button'>Conditii de utilizare</button>
+          <button type='button'>Top conturi</button>
+          <button type='button'>Hastaguri</button>
+          <button type='button'>Locatii</button>
+          <button type='button'>Instagram Lite</button>
+        </div> */}
       </div>
     );
   }
