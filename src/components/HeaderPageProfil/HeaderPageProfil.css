@@ -22,6 +22,10 @@
   width: 2rem;
   margin-right: 1rem;
 }
+.header-page-profil .icons-page-profile button{
+  background-color: white;
+  border: none;
+}
 .header-page-profil input::placeholder {
   text-align: center;
 }

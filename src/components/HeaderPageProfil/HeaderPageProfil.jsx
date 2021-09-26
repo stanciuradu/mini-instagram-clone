@@ -16,11 +16,21 @@ function HeaderPageProfil() {
       </Link>
       <input type="search" placeholder="Caută" className="form-control" />
       <div className="icons-page-profile">
-        <img src={home} alt="Home" />
-        <img src={inbox} alt="Inbox" />
-        <img src={posts} alt="Posts" />
-        <img src={videoclip} alt="Videoclip" />
-        <Favorite />
+        <button type="button">
+          <img src={home} alt="Home" />
+        </button>
+        <button type="button">
+          <img src={inbox} alt="Inbox" />
+        </button>
+        <button type="button">
+          <img src={posts} alt="Posts" />
+        </button>
+        <button type="button">
+          <img src={videoclip} alt="Videoclip" />
+        </button>
+        <button type="button">
+          <Favorite />
+        </button>
         <img src="https://i.imgur.com/Aak7nsE.jpg" alt="" className="profile" />
       </div>
     </div>

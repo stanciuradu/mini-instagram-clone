@@ -5,12 +5,14 @@ import { Link } from "react-router-dom";
 function Main() {
   return (
     <div className="main">
-      <img src="https://i.imgur.com/N7YnAMy.jpg" alt="Logo" />
+      <Link to="/conectare">
+        <img src="https://i.imgur.com/N7YnAMy.jpg" alt="Logo" />
+      </Link>
       <div className="content-main">
         <div className="title-content-main">
           <p>mozzila</p>
           <Verification />
-          <Link to="/login">
+          <Link to="/conectare">
             <button type="button" className="btn btn-primary">
               Urmarește
             </button>
