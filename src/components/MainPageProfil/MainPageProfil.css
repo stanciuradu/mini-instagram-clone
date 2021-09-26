@@ -1,0 +1,51 @@
+.main-page-profil {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.main-page-profil img {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 80%;
+  margin-right: 4rem;
+}
+.main-page-profil .main-page .main-page-profil-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-page-profil .main-page .main-page-profil-content button {
+  width: 10rem;
+  height: auto;
+  color: black;
+  background-color: white;
+}
+.main-page-profil .main-page .main-page-profil-content .optiuni {
+  border-radius: 2rem;
+  width: 2rem;
+  height: auto;
+}
+.main-page-profil .main-page .main-page-profil-content p {
+  margin-right: 2rem;
+  margin-top: 1rem;
+  font-size: x-large;
+}
+.main-page-profil .main-page .main-page-profil-content button {
+  margin-right: 2rem;
+}
+.main-page-profil .page-profil-details {
+  display: flex;
+}
+.main-page-profil .page-profil-details .details {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.main-page-profil .page-profil-details p {
+  margin-right: 2rem;
+}
+.main-page-profil .main-page h1{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 1rem;
+}
