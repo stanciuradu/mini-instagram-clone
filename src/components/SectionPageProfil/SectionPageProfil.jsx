@@ -41,19 +41,6 @@ export class SectionPageProfil extends Component {
           </div>
         </div>
         <ImagesList pictures={this.state.pictures} />
-        {/* <div className='button-page-profile'>
-          <button type='button'>Despre</button>
-          <button type='button'>Blog</button>
-          <button type='button'>Joburi</button>
-          <button type='button'>Ajutor</button>
-          <button type='button'>API</button>
-          <button type='button'>Confidentialitate</button>
-          <button type='button'>Conditii de utilizare</button>
-          <button type='button'>Top conturi</button>
-          <button type='button'>Hastaguri</button>
-          <button type='button'>Locatii</button>
-          <button type='button'>Instagram Lite</button>
-        </div> */}
       </div>
     );
   }

@@ -5,12 +5,15 @@ import home from "../../assets/images/home.png";
 import inbox from "../../assets/images/inbox.png";
 import posts from "../../assets/images/posts.png";
 import videoclip from "../../assets/images/videoclip.png";
+import { Link } from "react-router-dom";
 import { ReactComponent as Favorite } from "../../assets/icons/favorite.svg";
 
 function HeaderPageProfil() {
   return (
     <div className="header-page-profil">
-      <img src={logo} alt="Logo" />
+      <Link to="/">
+        <img src={logo} alt="Logo" />
+      </Link>
       <input type="search" placeholder="Caută" className="form-control" />
       <div className="icons-page-profile">
         <img src={home} alt="Home" />
@@ -18,7 +21,7 @@ function HeaderPageProfil() {
         <img src={posts} alt="Posts" />
         <img src={videoclip} alt="Videoclip" />
         <Favorite />
-        <img src="https://i.imgur.com/Aak7nsE.jpg" alt="" className='profile' />
+        <img src="https://i.imgur.com/Aak7nsE.jpg" alt="" className="profile" />
       </div>
     </div>
   );
