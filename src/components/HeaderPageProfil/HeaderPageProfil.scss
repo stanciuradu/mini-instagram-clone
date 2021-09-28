@@ -1,0 +1,35 @@
+.header-page-profil {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  img {
+    width: 6rem;
+    height: auto;
+  }
+  input {
+    width: 20rem;
+  }
+  .icons-page-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 2rem;
+      margin-right: 1rem;
+    }
+    button {
+      background-color: white;
+      border: none;
+    }
+    .profile {
+      border-radius: 2rem;
+      margin-left: 1rem;
+    }
+  }
+  input::placeholder {
+    text-align: center;
+  }
+}

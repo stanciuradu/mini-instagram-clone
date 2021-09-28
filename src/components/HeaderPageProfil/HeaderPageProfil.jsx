@@ -1,5 +1,6 @@
 import React from "react";
-import "../HeaderPageProfil/HeaderPageProfil.css";
+// import "../HeaderPageProfil/HeaderPageProfil.css";
+import '../HeaderPageProfil/HeaderPageProfil.scss';
 import logo from "../../assets/images/logo.png";
 import home from "../../assets/images/home.png";
 import inbox from "../../assets/images/inbox.png";
