@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../../assets/images/logo.png";
-import "../Login/Login.css";
+import '../Login/Login.scss';
 import SectionFromLogin from "../../components/SectionFromLogin";
 import { ReactComponent as Facebook } from "../../assets/icons/facebook.svg";
 import { Link } from "react-router-dom";
