@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Section/Section.css";
+import '../Section/Section.scss';
 import postari from "../../assets/images/postari.png";
 import video from "../../assets/images/video.png";
 import etichete from "../../assets/images/etichete.png";

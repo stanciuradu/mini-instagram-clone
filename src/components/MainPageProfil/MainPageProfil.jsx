@@ -1,6 +1,6 @@
 import React from "react";
 import optiuni from "../../assets/images/optiuni.png";
-import "../MainPageProfil/MainPageProfil.css";
+import '../MainPageProfil/MainPageProfil.scss';
 
 function MainPageProfil() {
   return (

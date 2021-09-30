@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ImagesPageProfile/ImagesItem.css';
+import '../ImagesPageProfile/ImagesItem.scss';
 
 function ImagesItem(props) {
     const{image}=props;

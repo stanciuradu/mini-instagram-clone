@@ -1,0 +1,52 @@
+.main-page-profil {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  img {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 80%;
+    margin-right: 4rem;
+  }
+  .main-page {
+    .main-page-profil-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        width: 10rem;
+        height: auto;
+        color: black;
+        background-color: white;
+        margin-right: 2rem;
+      }
+      .optiuni {
+        border-radius: 2rem;
+        width: 2rem;
+        height: auto;
+      }
+      p {
+        margin-right: 2rem;
+        margin-top: 1rem;
+        font-size: x-large;
+      }
+    }
+    h1 {
+      display: flex;
+      justify-content: flex-start;
+      font-weight: bold;
+      font-size: 1rem;
+      border-bottom: 1px solid black;
+    }
+  }
+  .page-profil-details {
+    display: flex;
+    .details {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+    p {
+      margin-right: 2rem;
+    }
+  }
+}

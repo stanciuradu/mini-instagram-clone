@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../SectionPageProfil/SectionPageProfil.css";
+import '../SectionPageProfil/SectionPageProfil.scss';
 import postari from "../../assets/images/postari.png";
 import video from "../../assets/images/video.png";
 import salvate from "../../assets/images/salvate.png";

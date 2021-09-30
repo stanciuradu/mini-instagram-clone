@@ -1,5 +1,5 @@
 import React from "react";
-import "../../components/Main/Main.css";
+import '../Main/Main.scss';
 import { ReactComponent as Verification } from "../../assets/icons/verification.svg";
 import { Link } from "react-router-dom";
 function Main() {
