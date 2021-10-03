@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import HeaderPasswordReset from '../../components/HeaderPasswordReset/HeaderPasswordReset';
+import MainPasswordReset from '../../components/MainPasswordReset/MainPasswordReset';
 
 function PasswordReset() {
     return (
         <div>
-            <h1>Pagina de resetare a parolei</h1>
+            <HeaderPasswordReset />
+            <MainPasswordReset />
         </div>
     )
 }
